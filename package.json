@@ -9,7 +9,7 @@
     "typescript": "^6.0.3"
   },
   "scripts": {
-     "auth:setup": "ts-node auth/global.setup.ts",
+     "auth:setup": "ts-node auth/global.auth.ts",
     "prepare:report": "node reports/prepare-report.js",
     "test:cucumber": "cucumber-js",
     "report:generate": "node reports/generate-report.js",
