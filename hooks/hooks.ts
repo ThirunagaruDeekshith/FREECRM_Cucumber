@@ -8,7 +8,7 @@ Before(async function () {
   this.browser = await chromium.launch();
 
 const context = await this.browser.newContext({
-    storageState: 'playwright/.auth/user.json' // reuse session
+    storageState: '.auth/user.json' // reuse session
   });
 
   this.page = await context.newPage();
