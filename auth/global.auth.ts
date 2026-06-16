@@ -21,7 +21,7 @@ async function globalSetup(config: FullConfig) {
 
   // Save authentication
   await context.storageState({
-    path: 'playwright/.auth/user.json'
+    path: '.auth/user.json'
   });
 
   console.log('Authentication saved');
